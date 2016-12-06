@@ -1,0 +1,219 @@
+<view class="container">
+   <view class='wea-state'>晴</view>
+   <!-- ********* 温度开始 ************-->
+   <view class="wendu">
+      <image src="../../images/bg.png" class="wendu-bg"></image>
+      <view class="wendu-left">
+        <view class="wendu-num">-1</view>
+        <view class="wendu-info">南风2级 湿度45%</view>
+        <view class="text">天气阴冷，穿暖和点吧！</view>
+      </view>
+      <view class="wendu-right">
+        <view class="r-img">
+          <!--<image src="../../images/shuye.png"></image>-->
+        </view>
+        <view class="zhiliang">   59良</view>
+      </view>
+   </view><!-- ********* 温度结束 ************-->
+   <!--******　今明两天预告开始 *****-->
+   <view class="yugao">
+      <view class="yugao-left">
+          <view class="today">
+              <view class="td-l">今天</view>
+              <view class="td-m">良</view>
+              <view class="td-r">-9/5</view>
+          </view>
+          <view class="today-state">
+            <text>晴</text> <image src="../../images/taiyang.png"></image>
+          </view>
+      </view>
+      <view class="yugao-left yugao-right">
+        <view class="today">
+              <view class="td-l">明天</view>
+              <view class="td-m">良</view>
+              <view class="td-r">-6/8</view>
+          </view>
+          <view class="today-state">
+            <text>晴</text> <image src="../../images/taiyang.png"></image>
+          </view>
+      </view>
+   </view><!--******　今明两天预告结束 *****-->
+   <!--日落开始-->
+   <view class="riluo">
+      <text>日落 17：08</text>
+      <view class="riluo-right">
+        <text>24小时</text>
+        <view class="btn"></view>
+      </view>
+   </view><!--日落结束-->
+   <!--********* 一周天气预报开始 **********-->
+   <view class="weekweather">
+      <view class="weekday">
+        <view class="day">周日</view>
+        <view class="state">晴</view>
+        <view class="img">
+            <image src="../../images/taiyang.png"></image>
+        </view>
+        <view class="table"></view>
+        <view class="img">
+            <image src="../../images/wan.png"></image>
+        </view>
+        <view class="state">晴</view>
+        <view class="wea-quality">严重</view>
+        <view class="feng">
+          <view class="fx">北风</view>
+          <view class="fl">3级</view>
+        </view>
+      </view>
+
+      <view class="weekday">
+        <view class="day">周一</view>
+        <view class="state">晴</view>
+        <view class="img">
+            <image src="../../images/taiyang.png"></image>
+        </view>
+        <view class="table"></view>
+        <view class="img">
+            <image src="../../images/wan.png"></image>
+        </view>
+        <view class="state">晴</view>
+        <view class="wea-quality">良</view>
+        <view class="feng">
+          <view class="fx">北风</view>
+          <view class="fl">3级</view>
+        </view>
+      </view>
+
+      <view class="weekday">
+        <view class="day">周二</view>
+        <view class="state">晴</view>
+        <view class="img">
+            <image src="../../images/taiyang.png"></image>
+        </view>
+        <view class="table"></view>
+        <view class="img">
+            <image src="../../images/wan.png"></image>
+        </view>
+        <view class="state">晴</view>
+        <view class="wea-quality">良</view>
+        <view class="feng">
+          <view class="fx">北风</view>
+          <view class="fl">3级</view>
+        </view>
+      </view>
+      <view class="weekday">
+        <view class="day">周三</view>
+        <view class="state">晴</view>
+        <view class="img">
+            <image src="../../images/taiyang.png"></image>
+        </view>
+        <view class="table"></view>
+        <view class="img">
+            <image src="../../images/wan.png"></image>
+        </view>
+        <view class="state">晴</view>
+        <view class="wea-quality">良</view>
+        <view class="feng">
+          <view class="fx">北风</view>
+          <view class="fl">3级</view>
+        </view>
+      </view>
+
+      <view class="weekday">
+        <view class="day">周四</view>
+        <view class="state">晴</view>
+        <view class="img">
+            <image src="../../images/taiyang.png"></image>
+        </view>
+        <view class="table"></view>
+        <view class="img">
+            <image src="../../images/wan.png"></image>
+        </view>
+        <view class="state">晴</view>
+        <view class="wea-quality">优</view>
+        <view class="feng">
+          <view class="fx">北风</view>
+          <view class="fl">3级</view>
+        </view>
+      </view>
+
+      <view class="weekday">
+        <view class="day">周五</view>
+        <view class="state">晴</view>
+        <view class="img">
+            <image src="../../images/taiyang.png"></image>
+        </view>
+        <view class="table"></view>
+        <view class="img">
+            <image src="../../images/wan.png"></image>
+        </view>
+        <view class="state">晴</view>
+        <view class="wea-quality">优</view>
+        <view class="feng">
+        <view class="fx">北风</view>
+           <view class="fl">3级</view>
+        </view>
+      </view>
+   </view>
+
+   <!--活动开始-->
+   <view class="active">
+      <view class="active-list">
+          <image src="../../images/active1.png" class="active-icon"></image>
+          <view class="text">化妆 保湿</view>
+      </view>
+      <view class="active-list">
+         <image src="../../images/active2.png" class="active-icon"></image>
+          <view class="text">息斯敏过敏 极不易发</view>
+      </view>
+      <view class="active-list">
+<image src="../../images/active3.png" class="active-icon"></image>
+          <view class="text">感冒 极易发</view>
+      </view>
+      <view class="active-list">
+      <image src="../../images/active4.png" class="active-icon"></image>
+          <view class="text">洗车 非常适宜</view>
+      </view>
+      <view class="active-list">
+<image src="../../images/active5.png" class="active-icon"></image>
+          <view class="text">空气污染扩散 较差</view>
+      </view>
+      <view class="active-list">
+<image src="../../images/active6.png" class="active-icon"></image>
+          <view class="text">穿衣 寒冷</view>
+      </view>
+      <view class="active-list">
+<image src="../../images/active7.png" class="active-icon"></image>
+          <view class="text">紫外线 中等</view>
+      </view>
+      <view class="active-list">
+<image src="../../images/active8.png" class="active-icon"></image>
+          <view class="text">运动 不适宜</view>
+      </view>
+      <view class="active-list">
+<image src="../../images/active9.png" class="active-icon"></image>
+          <view class="text">钓鱼 较适宜</view>
+      </view>
+   </view><!--活动结束-->
+   <view class="moji">
+      <text class="moji-tit">墨·记</text>
+      <view class="list-box">
+          <view class="list">感恩节</view>
+          <view class="list">演艺界的摄影大师：周润发</view>
+          <view class="list">想拍月亮？其实很简单！</view>
+          <view class="list">万里飞霜，千林红叶，正值赏枫好时节！</view>
+          <view class="list">7个摄影技巧新玩法</view>
+      </view>
+    </view>
+    <view class="moji">
+      <text class="moji-tit">新闻</text>
+      <view class="list-box">
+          <view class="list">日拍卖我流失文物,文物局叫停</view>
+          <view class="list">男子"捡"了个媳妇生了五个娃</view>
+          <view class="list">天宫二号伴星拍摄地球全景图</view>
+          <view class="list">来自英国的新鲜空气660元一罐</view>
+          <view class="list">4岁孩子街头抽烟,当妈的在笑</view>
+      </view>
+    </view>
+
+</view>

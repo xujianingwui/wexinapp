@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/fujin/fujin",
+    "pages/about/about"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#0F7FC4",
+    "navigationBarTextStyle":"white",
+    "navigationBarTitleText": "美天气",
+    "backgroundColor":"#1E82C5",
+    "backgroundTextStyle":"light",
+    "enablePullDownRefresh":"true"
+  }
+}
